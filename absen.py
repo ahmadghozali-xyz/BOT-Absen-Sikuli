@@ -24,7 +24,7 @@ absensi_button = WebDriverWait(driver, 10).until(
 
 # Masukkan nama pengguna dan kata sandi
 username_input.send_keys('210401225')
-password_input.send_keys('lostsaga1234')
+password_input.send_keys('tehtarikumri')
 
 # Klik tombol absensi
 absensi_button.click()
