@@ -3,28 +3,39 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Sesuaikan path dengan lokasi ChromeDriver di komputer Anda
-driver = webdriver.Chrome(executable_path='path/to/chromedriver')
-driver.get('https://sikuli.umri.ac.id/')
+def bot_absen_sikuli(username, password, url):
+    # Sesuaikan path dengan lokasi ChromeDriver di komputer Anda
+    driver = webdriver.Chrome(executable_path='path/to/chromedriver')
+    driver.get(url)
 
-# Tunggu hingga elemen dengan ID 'username' tersedia
-username_input = WebDriverWait(driver, 10).until(
-    EC.presence_of_element_located((By.ID, 'username'))
-)
+    # Tunggu hingga elemen dengan ID 'username' tersedia
+    username_input = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, 'username'))
+    )
 
-# Tunggu hingga elemen dengan ID 'password' tersedia
-password_input = WebDriverWait(driver, 10).until(
-    EC.presence_of_element_located((By.ID, 'password'))
-)
+    # Tunggu hingga elemen dengan ID 'password' tersedia
+    password_input = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, 'password'))
+    )
 
-# Tunggu hingga elemen dengan ID 'id_tombol_absensi' tersedia
-absensi_button = WebDriverWait(driver, 10).until(
-    EC.presence_of_element_located((By.ID, 'id_tombol_absensi'))
-)
+    # Tunggu hingga elemen dengan teks 'MASUK' tersedia
+    masuk_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//a[contains(text(),'MASUK')]"))
+    )
 
-# Masukkan nama pengguna dan kata sandi
-username_input.send_keys('210401225')
-password_input.send_keys('tehtarikumri')
+    # Masukkan NIM dan kata sandi
+    username_input.send_keys(NIM)
+    password_input.send_keys(password)
 
-# Klik tombol absensi
-absensi_button.click()
+    # Klik tombol MASUK
+    masuk_button.click()
+
+    # Jika diperlukan, tambahkan langkah-langkah absen berikutnya sesuai kebutuhan
+
+    # Tutup browser setelah selesai
+    driver.quit()
+
+    # Ganti dengan informasi login Anda
+    bot_absen_sikuli(username='NIM', password='password',
+
+    # Tidur pun nyenyak tanpa takut ketinggalan absen                 
