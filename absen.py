@@ -36,6 +36,6 @@ def bot_absen_sikuli(username, password, url):
     driver.quit()
 
     # Ganti dengan informasi login Anda
-    bot_absen_sikuli(username='NIM', password='password',
+    bot_absen_sikuli(username='NIM', password='password')
 
     # Tidur pun nyenyak tanpa takut ketinggalan absen                 
