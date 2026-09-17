@@ -272,3 +272,11 @@ Program ini dibuat untuk tujuan **efisiensi dan pembelajaran**. Pengguna bertang
 © 2025 Ahmad Ghozali — [GitHub](https://github.com/ahmadghozali-xyz) · [Sikuli UMRI](https://sikuli.umri.ac.id)
 
 </div>
+
+---
+
+## 📖 Dokumen Lainnya
+
+| Dokumen | Deskripsi |
+|---------|-----------|
+| [**📋 Tentang Project (About)**](./ABOUT.md) | Profil developer, arsitektur sistem, roadmap & sejarah versi |
