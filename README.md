@@ -1,4 +1,4 @@
-﻿# 🎓 BOT Auto Absensi Sikuli UMRI — Versi CLI (Terminal)
+﻿# 🎓 Auto Absensi Sikuli UMRI — Versi CLI (Terminal)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python&logoColor=white" alt="Python Version">
@@ -11,7 +11,7 @@
 
 ## 📖 Apa Itu Bot Ini?
 
-**BOT Auto Absen Sikuli** adalah program pintar yang membantu mahasiswa **Universitas Muhammadiyah Riau (UMRI)** untuk melakukan presensi otomatis di portal **[Sikuli](https://sikuli.umri.ac.id)**.
+**Auto Absen Sikuli** adalah program pintar yang membantu mahasiswa **Universitas Muhammadiyah Riau (UMRI)** untuk melakukan presensi otomatis di portal **[Sikuli](https://sikuli.umri.ac.id)**.
 
 > 💡 **Gambaran sederhana:** Bayangkan Anda punya "asisten pribadi" yang setiap 30 detik mengecek apakah dosen sudah membuka sesi absen. Jika ya, asisten tersebut langsung mengisi kehadiran Anda secara otomatis. Anda tinggal menjalankan program ini sekali, lalu biarkan bekerja di latar belakang.
 
