@@ -1,4 +1,4 @@
-﻿# 📋 Tentang Project Ini (About)
+﻿# 📋 Tentang Project Ini
 
 <p align="center">
   <img src="https://img.shields.io/badge/Versi-2.0-blue?style=for-the-badge" alt="Versi">
@@ -12,7 +12,7 @@
 | | |
 |---|---|
 | **Nama** | Ahmad Ghozali |
-| **Status** | Mahasiswa Aktif Universitas Muhammadiyah Riau (UMRI) |
+| **Status** | Mahasiswa Universitas Muhammadiyah Riau (UMRI) |
 | **Program Studi** | Teknik Informatika / Sistem Informasi |
 | **GitHub** | [github.com/ahmadghozali-xyz](https://github.com/ahmadghozali-xyz) |
 
