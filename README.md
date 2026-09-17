@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Apa Itu Bot Ini?
+## 📖 Program Apa Ini?
 
 **Auto Absen Sikuli** adalah program pintar yang membantu mahasiswa **Universitas Muhammadiyah Riau (UMRI)** untuk melakukan presensi otomatis di portal **[Sikuli](https://sikuli.umri.ac.id)**.
 
