@@ -13,7 +13,7 @@
 |---|---|
 | **Nama** | Ahmad Ghozali |
 | **Status** | Mahasiswa Universitas Muhammadiyah Riau (UMRI) |
-| **Program Studi** | Teknik Informatika / Sistem Informasi |
+| **Program Studi** | Teknik Informatika |
 | **GitHub** | [github.com/ahmadghozali-xyz](https://github.com/ahmadghozali-xyz) |
 
 > *"Dibuat oleh mahasiswa, untuk mahasiswa — solusi sederhana masalah sehari-hari di kampus."*
